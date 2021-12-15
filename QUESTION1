@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<title>Pracitcal 1</title>
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  table {
+    width: 70%;
+    min-height: 60%;
+  }
+</style>
+
+<body>
+  <table>
+
+    <tr>
+      <th colspan="2">A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+
+    <tbody>
+      <tr>
+        <td>D</td>
+        <td colspan="2">E</td>
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>G</td>
+        <td>H</td>
+        <td colspan="2"><img src='image.png' alt='avatar' width="20" height="20"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
